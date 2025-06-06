@@ -10,7 +10,7 @@ export default function Cards({
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {articles.map((article, index) => {
+        {articles.map((article) => {
           return <Card key={article.slug} {...article} />;
         })}
       </div>
