@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --color-primary-95: #0e2335;
+  --color-primary-65: #5a6875;
+  --color-primary: #02182b;
+  --color-accent: #ed5c5a;
+  --color-white: #fdfffc;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
